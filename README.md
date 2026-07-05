@@ -85,16 +85,32 @@ $ ./current_ops --list
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=nithiya-rajesh&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true" alt="GitHub stats" />
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=nithiya-rajesh&theme=chartreuse-dark&hide_border=true" alt="GitHub streak" />
+<!-- Primary Stats -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=nithiya-rajesh&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=1800">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=nithiya-rajesh&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=1800" alt="GitHub stats" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=nithiya-rajesh&theme=chartreuse-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D">
+  <img height="170" src="https://streak-stats.demolab.com?user=nithiya-rajesh&theme=chartreuse-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub streak" />
+</picture>
 
 <br/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nithiya-rajesh&layout=compact&theme=chartreuse-dark&hide_border=true&langs_count=8" alt="Top languages" />
+<!-- Top Languages -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=nithiya-rajesh&layout=compact&theme=chartreuse-dark&hide_border=true&langs_count=8&cache_seconds=1800">
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nithiya-rajesh&layout=compact&theme=chartreuse-dark&hide_border=true&langs_count=8&cache_seconds=1800" alt="Top languages" />
+</picture>
 
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=nithiya-rajesh&theme=matrix&no-bg=true&no-frame=true&margin-w=8&column=7" alt="Trophies" />
+<!-- Trophies -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=nithiya-rajesh&theme=matrix&no-bg=true&no-frame=true&margin-w=8&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A">
+  <img src="https://github-profile-trophy.vercel.app/?username=nithiya-rajesh&theme=matrix&no-bg=true&no-frame=true&margin-w=8&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A" alt="Trophies" />
+</picture>
 
 </div>
 
@@ -179,14 +195,44 @@ $ ./current_ops --list
 <!--  ⚙️  SETUP NOTES (delete after configuring — not shown on render)  -->
 <!--                                                                   -->
 <!--  IF THE STATS / TOP-LANGS / TROPHY IMAGES SHOW AS BROKEN:         -->
-<!--    They are hosted on the public github-readme-stats vercel       -->
-<!--    instance, which is frequently rate-limited by GitHub. It       -->
-<!--    usually recovers on refresh. For a permanent fix, deploy your  -->
-<!--    own instance (free) and swap the domain:                       -->
-<!--    https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own -->
+<!--                                                                   -->
+<!--  1. QUICK FIX: Wait a few minutes and refresh — public instances  -->
+<!--     are rate-limited by GitHub and usually recover automatically  -->
+<!--                                                                   -->
+<!--  2. CACHE ISSUE: Clear browser cache and try accessing in         -->
+<!--     incognito/private mode to force reload                        -->
+<!--                                                                   -->
+<!--  3. ALTERNATIVE HOSTS:                                            -->
+<!--     - GitHub Streak: Changed to streak-stats.demolab.com          -->
+<!--       (more reliable alternative to herokuapp)                    -->
+<!--     - Stats/Languages: vercel.app with cache_seconds parameter    -->
+<!--                                                                   -->
+<!--  4. PERMANENT SOLUTION: Deploy your own Vercel instance (free):   -->
+<!--     https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own -->
+<!--     Then replace all vercel.app URLs with your instance domain    -->
+<!--                                                                   -->
+<!--  5. VERIFY URLS: Test each image URL directly in browser:         -->
+<!--     - Stats: https://github-readme-stats.vercel.app/api?username=nithiya-rajesh -->
+<!--     - Languages: https://github-readme-stats.vercel.app/api/top-langs/?username=nithiya-rajesh -->
+<!--     - Trophies: https://github-profile-trophy.vercel.app/?username=nithiya-rajesh -->
 <!--                                                                   -->
 <!--  AUTO BLOG FEED (Latest Write-ups):                               -->
 <!--    Add .github/workflows/blog-post.yml using                      -->
 <!--    gautamkrishnar/blog-post-workflow with your Medium RSS:        -->
 <!--    https://medium.com/feed/@nithiya.rajesh1998                    -->
+<!--                                                                   -->
+<!--  Example workflow:                                                -->
+<!--    name: Latest blog post workflow                                -->
+<!--    on:                                                            -->
+<!--      schedule:                                                    -->
+<!--        - cron: '0 0 * * *'                                        -->
+<!--      workflow_dispatch:                                           -->
+<!--    jobs:                                                          -->
+<!--      update-readme:                                               -->
+<!--        runs-on: ubuntu-latest                                     -->
+<!--        steps:                                                     -->
+<!--          - uses: actions/checkout@v3                              -->
+<!--          - uses: gautamkrishnar/blog-post-workflow@master         -->
+<!--            with:                                                  -->
+<!--              feed_list: "https://medium.com/feed/@nithiya.rajesh1998" -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
