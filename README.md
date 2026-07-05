@@ -81,41 +81,6 @@ $ ./current_ops --list
 
 ---
 
-## 📊 GitHub Analytics
-
-<div align="center">
-
-<!-- Primary Stats -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=nithiya-rajesh&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=1800">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=nithiya-rajesh&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=1800" alt="GitHub stats" />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=nithiya-rajesh&theme=chartreuse-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D">
-  <img height="170" src="https://streak-stats.demolab.com?user=nithiya-rajesh&theme=chartreuse-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub streak" />
-</picture>
-
-<br/>
-
-<!-- Top Languages -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=nithiya-rajesh&layout=compact&theme=chartreuse-dark&hide_border=true&langs_count=8&cache_seconds=1800">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nithiya-rajesh&layout=compact&theme=chartreuse-dark&hide_border=true&langs_count=8&cache_seconds=1800" alt="Top languages" />
-</picture>
-
-<br/><br/>
-
-<!-- Trophies -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=nithiya-rajesh&theme=matrix&no-bg=true&no-frame=true&margin-w=8&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A">
-  <img src="https://github-profile-trophy.vercel.app/?username=nithiya-rajesh&theme=matrix&no-bg=true&no-frame=true&margin-w=8&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A" alt="Trophies" />
-</picture>
-
-</div>
-
----
-
 ## 🚀 Projects & Labs
 
 <table>
